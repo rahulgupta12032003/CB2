@@ -28,8 +28,10 @@
 </html>
 
 <Script type="module">
-    import footer from "../Footer/footer.js"
+     import {footer,scrollTop} from "../Footer/footer.js";
         let footER= document.getElementById("footerA");
         footER.innerHTML=footer();
+        let scrolToTop=document.getElementById("btnScrollToTop");
+        scrollTop(scrolToTop);
 </Script>
 <script src="./favourite.js"></script>
