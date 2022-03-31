@@ -1,0 +1,58 @@
+#atXYZ{
+    display:grid;
+    grid-template-columns: 400px 100px;
+    justify-content: space-between;
+    margin: 20px 10px 50px 10px;
+}
+#favAtanu{
+    height: 200px;
+    width:70%;
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-template-rows: 200px;
+    gap: 5%;
+}
+#xyzMain{
+    height: 200px;
+    display:grid;
+    grid-template-columns:80% 20%;
+    grid-template-rows: 200px;
+    gap: 5%;
+}
+#pri{
+ margin-top: 60%;
+ font-size: 25px;
+ color: red;
+ margin-bottom: 5px;
+}
+#favimg{
+    width:100%;
+    height:100%;
+}
+#favBtn{
+    display:grid;
+    grid-template-columns:repeat(2,100px);
+    grid-template-rows:20px;
+    gap: 50px;
+}
+#btmBox{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}#removeA{
+    margin-left: 97%;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#cartA{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}

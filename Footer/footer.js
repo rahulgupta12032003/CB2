@@ -9,7 +9,7 @@ const footer = ()=>{
                     <img src="https://cb2.scene7.com/is/image/CB2/121421_marquee_lighting_2?wid=680&qlt=75&resMode=sharp2" alt="" style="width: 100%; height:350px;">
                     <p>BRUNA COLLECTION OF LIGHT</p>
                 </a>
-                <a href="../kristeenGiorgi.html">
+                <a href="../Atanu/kristeenGiorgi.html">
                     <img src="https://cb2.scene7.com/is/image/CB2/021822_home_bt_3?wid=740&qlt=50" alt="" style="width: 100%; height: 350px;">
                     <p>ENTER THE LUSH, DREAMLIKE WORLD OF FINE ARTIST KRISTEN GIORGI</p>
                 </a>
