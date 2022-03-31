@@ -39,7 +39,7 @@
         <div id="leftA"></div>
         <div id="rightA">
             <div>
-                <a href="./index.html" class="underline_hover">SPECIAL FEATURES</a>
+                <a href="../index.html" class="underline_hover">SPECIAL FEATURES</a>
                 <h1 style="font-size: 30px; font-family:'Courier New',">KRISTEEN GIORGI</h1>
             </div>
            <div id="cristeenA">
@@ -66,9 +66,11 @@
 </html>
 
 <Script type="module">
-    import footer from "../Footer/footer.js"
+    import {footer,scrollTop} from "../Footer/footer.js";
         let footER= document.getElementById("footerA");
         footER.innerHTML=footer();
+        let scrolToTop=document.getElementById("btnScrollToTop");
+        scrollTop(scrolToTop);
 </Script>
 <script>
     let Kristeen=[

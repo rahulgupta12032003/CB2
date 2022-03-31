@@ -1,5 +1,12 @@
 const footer = ()=>{
-    return `<div style="padding-top: 50px; background-color:white;margin:-10px">
+    return `<div id="extraBottom">
+               <div id="btnScrollToTop"><i class="fa fa-chevron-up" aria-hidden="true"style="margin-left: 10px; font-size: 20px;"></i>
+                 <p style="margin-top: -15px; font-family:sans-serif; font-size: 18px;margin-left: 13px;">Top</p>
+                </div>
+                <div><p style="font-size: 15px;">Feedback</p></div>
+                <div><p style="margin-left: 5px;">CHAT</p></div>
+            </div>
+        <div style="padding-top: 50px; background-color:white;margin:-10px">
              <div style="display: flex; flex-direction: row; margin: 0px; padding-bottom: 30px;">
                 <span style="padding-left: 100px;font-family:'Courier New', Courier, monospace;font-size: 18px;font-weight: bold;">ON OUR RADAR</span>
                 <hr style="border-inline: 1px; width: 1000px;">
@@ -23,7 +30,7 @@ const footer = ()=>{
                 </a>
              </div>
             </div>
-  <div id="footupA">
+    <div id="footupA">
     <!-- KNOW WHAT'S UP. SIGN UP FOR EMAILS. -->
            <div>
             <h4>KNOW WHAT'S UP. SIGN UP FOR EMAILS.</h4>
@@ -101,6 +108,16 @@ const footer = ()=>{
            <a href="" class="underline_hover">CO-BROWSE</a>
         </p>
        </div>`;
+};
+
+const scrollTop=(btn)=>{
+    btn.addEventListener("click",()=>{
+        window.scrollTo({
+            top:0,
+            left:0,
+            behavior:"smooth",
+        })
+    })
 }
 
-export default footer;
+export {footer, scrollTop};
